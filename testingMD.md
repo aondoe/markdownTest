@@ -29,4 +29,34 @@
 1.  Be friendly
 
 <!-- Image links -->
-![Markdown tutorial](https://upload.wikimedia.org/wikipedia/commons/a/a5/Flower_poster_2.jpg)
+![Markdown tutorial](https://upload.wikimedia.org/wikipedia/commons/a/a5/Flower_poster_2.jpg "Pretty")
+
+
+
+<!-- Code block examples: general purpose -->
+```
+php artisan make:auth
+php artisan tinker
+```
+
+<!-- Code block examples: javascript -->
+```javascript
+function(jump){
+    alert("jump");
+}
+```
+
+```python
+def add(num1,num2):
+    return num1+num2;
+```
+
+<!-- Table -->
+|Name|Email|
+|----|-----|
+|Chris Jenkins|cjenk@hotmales.com|
+|Mary Carter|mcarter@nowhere.com|
+
+*   [x] Task 1
+*   [x] Task 2
+*   [ ] Task 2
